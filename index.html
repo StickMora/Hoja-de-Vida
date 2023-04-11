@@ -5,61 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV JHOJAN</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body>
-    <h1>JHOJAN STICK MORA BOHÓRQUEZ</h1>
-    <h2>email: jhojansmb@gmail.com
-        Teléfono: 3204343899
-        GitHub:
-        <a href="http://github.com/StickMora">StickMora</a>
-        Linkedln:
-        <a href="https://www.linkedin.com/in/jhojan-stick-mora-boh%C3%B3rquez-544763263/">Jhojan Mora</a>
-        Experiencia: 
-        </h2>
-        
-        <ul>
-            <li>Empresa: Tecnicel  <br>
-            Cargo:"Técnico en reparación de equipos móviles"</li> 
-            <li>Empresa: Servitecnimaquinas <br>
-            Cargo:"Técnico en redes de comunicación y mantenimiento a impresoras"</li>
-            <li>Empresa: Mi Móvil <br>
-            Cargo:Administrador</li>
-        </ul>
-    <table>
-        <tr>
-            <th>
-                Habilidades técnicas y tecnologicas
-            </th>
-        </tr>      
-        <tr>
-            <td>
-                javascript
-            </td>
-        </tr>
-        <tr>
-            <td>
-                React
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Firebase
-            </td>
-        </tr>   
-    </table> 
-    <table>
-        <tr>
-            <th>Intereses</th>
-            <td>Aplicaciones móviles</td> 
-            <td>Realidad Aumentada</td>
-            <td>SCRUM</td>
-        </tr>
-    </table>
-    <input type="text" name="email">
-    <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
-    <button>Contactar</button>
 
-    
-    
+<body class="hoja">
+    <header class="izquierda">
+        <div class="izquierda-foto">
+            <img class="foto-img" src="foto.jpg" alt="portada">
+        </div>
+        <section class="izquierda-contacto">
+            <h3 class="izquierda-contacto-titulo">
+                CONTACTO
+            </h3>
+            <span class="material-symbols-outlined">mail</span>
+            <p class="redes">
+                jhojansmb@gmail.com
+            </p>
+            <span class="material-symbols-outlined">call</span>
+            <p class="redes">
+                +57 3204343899
+            </p>
+            <span class="material-symbols-outlined">public</span>
+            <p class="redes">
+                GitHub:
+                <a href="http://github.com/StickMora">StickMora</a> <br>
+                Linkedln:
+                <a href="https://www.linkedin.com/in/jhojan-stick-mora-boh%C3%B3rquez-544763263/">Jhojan Mora</a>
+            </p>
+            <input type="text" name="email">
+            <button>Contactar</button>
+        </section>
+        <div class="izquierda-educacion">
+            <h3 class="izquierda-educacion-titulo">EDUCACIÓN</h3>
+                <ul class="educacion">
+                    <li>Técnico en instalaciones electricas de baja tension. SENA
+                    </li> <br>
+                    <li>BACHILLER <br>
+                    Intitución Educativa Técnico Industrial "M.A.B"
+                    </li>
+                </ul>
+        </div>
+    </header>
+    <main class="derecha">
+            <div class="derecha-nombre">
+                <h1 class="derecha-nombre-escrito">JHOJAN STICK</h1>
+                <h1 class="derecha-nombre-escrito">MORA BOHÓRQUEZ</h1> 
+            </div> 
+            <section class="derecha-perfil">
+                    <h3 class="derecha-p-p-titulo">
+                        PERFIL PROFESIONAL
+                    </h3>
+                    <p class="derecha-p-p-texto">
+                        Bachiller técnico en instalaciones eléctricas de baja tensión, manejo de herramientas ofimáticas (Word,
+                        Excel, PowerPoint) experiencia en telecomunicaciones y electrónica, manejo de medios audiovisuales. Por
+                        otra parte, como independiente y emprendedor en venta y reparación de equipos electrónicos. Persona con
+                        facilidad de aprendizaje, Innovador y líder.
+                    </p>
+            </section>
+            <section class="derecha-experiencia">
+                    <h3 class="derecha-experiencia-titulo">EXPERIENCIA</h3>
+                    <div class="derecha-experiencia-listas">
+                        <ul>
+                            <li>Empresa: Tecnicel <br>
+                                Cargo:"Técnico en reparación de equipos móviles"<br>
+                                Tiempo: 3 Años
+                            </li>
+                            <li>Empresa: Servitecnimaquinas <br>
+                                Cargo:"Técnico en redes de comunicación y mantenimiento a impresoras"<br>
+                                Tiempo: 1 Año
+                            </li>
+                            <li>Empresa: Mi Móvil <br>
+                                Cargo:Administrador <br>
+                                Tiempo: 2 Años
+                            </li>
+                        </ul>
+                    </div>
+            </section> 
+            <section class="derecha-habilidades">
+                <h3 class="derecha-habilidades-titulo">Habilidades técnicas y tecnologicas:</h3>
+                <p class="texto">Javascript, React, Firebase</p>
+                <h3 class="derecha-habilidades-titulo">Intereses</h3>
+                <p class="texto">Aplicaciones móviles, Realidad Aumentada, SCRUM</p>
+            </section> 
+    </main>
 </body>
 </html>
